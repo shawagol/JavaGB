@@ -49,14 +49,14 @@ public class Lesson1 {
     }
 
     // задание 3
-    static float getCalc(float a, float b, float c, float d) {
+    public static float getCalc(float a, float b, float c, float d) {
         return a * (b + (c / d));
 
 
     }
     // задание 4
 
-    static boolean task4(int a, int b) {
+   public static boolean task4(int a, int b) {
         int result2 = a + b;
         if (result2 >= 10 && result2 <= 20) {
             return true;
@@ -64,7 +64,7 @@ public class Lesson1 {
     }
 
     // Задание 5
-    static void positiveOrNegative(int x) {
+    public static void positiveOrNegative(int x) {
         if (x >= 0) {
             System.out.println("Задание 5. Число  является положительное");
         } else System.out.println("Задание 5. Число отрицательно");
@@ -72,13 +72,13 @@ public class Lesson1 {
     }
 
     // Задание 6
-    static boolean trueNegative(int a) {
+    public static boolean trueNegative(int a) {
         if (a < 0) {
             return true;
         } else return false;
     }
 
-    static  void textName (String name) {
+    public static  void textName (String name) {
         System.out.println("Привет, "+ name + "!");
     }
 }
